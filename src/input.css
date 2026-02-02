@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Zen+Loop:ital@0;1&display=swap'); */
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+
+/* @layer base{
+     h1{
+        @apply text-8xl;
+     }
+     button{
+        @apply border border-solid border-slate-600
+     }
+} */
+
+
+/* @layer components{
+   .btn-primary{
+      @apply bg-blue-500 rounded hover:bg-blue-700 p-2 text-white
+   }
+} */
+
+/* @layer components{
+   .btn{
+      @apply border border-slate-400 rounded px-5 py-1.5 hover:bg-slate-100
+   }  
+   
+   .btn-primary{
+      @apply bg-blue-500 text-white hover:bg-blue-700 cursor-pointer
+   }
+
+   .btn-secondary{
+      @apply  bg-slate-500 text-white hover:bg-slate-600 cursor-pointer
+   }
+   .btn-success{
+      @apply  bg-green-600 text-white hover:bg-green-800 cursor-pointer
+   }
+   .btn-danger{
+      @apply  bg-red-600 text-white hover:bg-red-700 cursor-pointer
+   }
+   .btn-warning{
+      @apply  bg-yellow-500 text-black hover:bg-yellow-600 cursor-pointer
+   }
+   .btn-info{
+      @apply  bg-teal-500 text-white hover:bg-teal-600 cursor-pointer
+   }
+   .btn-light{
+      @apply   text-black hover:bg-teal-600 cursor-pointer
+   }
+   .btn-dark{
+      @apply  bg-slate-700 text-white hover:bg-black cursor-pointer
+   }
+} */
+
+/* @layer components{
+   .img-gallery{
+      @apply border-2 border-blue-300 hover:border-blue-100 w-80 hover:scale-110 transition duration-700 brightness-125 rounded
+   }
+} */
+
+
+/* @theme{
+   --font-zenloop:"Zen Loop", cursive;
+} */
+
+@theme{
+   --font-open:"Open Sans", sans-serif;
+}

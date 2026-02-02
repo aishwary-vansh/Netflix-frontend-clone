@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Netflix India</title>
+  <link rel="stylesheet" href="../src/output.css">
+</head>
+<body>
+  <div class="relative h-screen w-full">
+
+    <!-- Background Image -->
+    <img src="../netflixbackpage.jpg"
+         class="absolute h-full w-full object-cover brightness-40 z-0" />
+
+    <!-- Black Top Bar (make sure it has higher z-index) -->
+    <div class="absolute top-0 left-0 w-full h-20 bg-black opacity-60 z-10"></div>
+
+    <!-- Netflix Logo (above the black bar) -->
+    <div class="absolute top-4 left-4 z-20">
+      <img src="../Netflix-Logo.png" class="w-28 lg:w-44" />
+    </div>
+
+  </div>
+</body>
+</html>
