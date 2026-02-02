@@ -1,0 +1,5 @@
+Node.js >= 18.0.0
+Tailwind CSS v4.1.18
+@tailwindcss/cli >= 4.1.18
+HTML5
+JavaScript (ES6)
